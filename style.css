@@ -1,0 +1,133 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    color: #f9faf8;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.nav_menu {
+    display: flex;
+    gap: 16px;
+    align-content: center;
+}
+.main-title{
+    display: flex;
+    gap: 100px;
+    padding: 2% 10%;
+    background-color: #1f2937;     
+}
+.teks-title {
+    width: 50%;
+    align-self: center;  
+}
+.judul {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 10px 0;
+    color: white;
+}
+.teks-atas {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px 0;
+}
+button {
+    color: white;
+    margin: 10px 0;
+    font-weight: 700;
+    background-color: rgb(20, 129, 192);
+    padding: 5px;
+    border-radius: 5px;
+}
+img {
+    width: 50%;
+    align-self: center;
+    flex-shrink: 8;
+}
+.information {
+    text-align: center;
+    padding: 2% 10%;
+}
+.title-information {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+.box-information {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.information > img {
+    width: 100px;
+    height: 100px;
+}
+.text {
+    max-width: 100px;
+    font-size: 12px;
+    margin-left: 75px;
+}
+.quotes {
+    padding: 2% 21%;
+    background-color: #e5e7eb;
+}
+.text-quotes {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: light italic;
+}
+.man {
+    text-align: right;
+    font-size: 18px;
+    padding-right: 25px;
+}
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.modal1 {
+    background: #2c68e9;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    width: 750px;
+    padding: 20px;
+}
+.container {
+    
+}
+.judul-modal {
+    color: white;
+    font-weight: bold;
+}
+.isi-modal {
+    color: white;
+}
+.sign-up {
+    color: white;
+    background-color: #2c68e9;
+}
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 2% 10%;
+}
+ul {
+    list-style-type: none;
+}
